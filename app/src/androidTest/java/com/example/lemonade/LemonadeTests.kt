@@ -40,11 +40,18 @@ class LemonadeTests : BaseTest() {
         launchActivity<MainActivity>()
     }
 
+    // Given
+    // When
+    // Then
+
     /**
      * Test the view components of the pick lemon state
      */
     @Test
     fun `test_initial_state`() {
+        // given lemon select and lemon tree
+        // when lemon select is selected
+        // THEN lemon tree is the drawable
         testState(R.string.lemon_select, R.drawable.lemon_tree)
     }
 
